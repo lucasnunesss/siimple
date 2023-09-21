@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(boxicons.ttf) format(truetype);
+}
+
+
+header{
+    background-image: url(img/hero-bg.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+   background-position: scroll;
+}
