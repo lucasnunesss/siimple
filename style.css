@@ -5,11 +5,73 @@
     src: url(boxicons.ttf) format(truetype);
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 header{
-    background-image: url(img/hero-bg.jpg);
-    height: 100vh;
-    width: auto;
+    background: url(img/hero-bg.jpg) center center no-repeat;
+    height: 80vh;
+    width: 100%;
     background-size: cover;
-   background-position: scroll;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
 }
+
+header > h1{
+    font-family: 'fonte1';
+    padding-top: 100px;
+    font-size: 4em;
+    font-weight: 100;
+    text-transform:capitalize;
+}
+
+header > p{
+    font-family: 'fonte1';
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#sep{
+    padding-top: 20px;
+}
+
+
+.name {
+   
+    margin: auto 20px auto 20px;
+    border-radius: 30px;
+    width: 230px;
+    height: 40px;
+    border: 0px solid black;
+    text-indent: 20px;      
+}
+
+.not{
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #FD680E;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'fonte1';
+}
+
+.not:hover{
+    background-color: #f78b48fd;
+}
+
+article > #ima{
+    display: flex;
+    max-width: 95%;
+    width: 600px;
+    margin: auto;
+    padding-top: 80px;
+     
+}
+
+

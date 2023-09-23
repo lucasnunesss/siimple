@@ -11,16 +11,18 @@
         <h1>Welcome to Siimple</h1>
         <p>Please, fill out the for below to be notified for the latest updates</p>
         <form action="cadastro.js" method="get">
+            <div id="sep">
             <label for="inome"></label>
-            <input type="text" name="nome" id="inome" placeholder="Seu Nome">
-            <label for="iemail"></label>
-            <input type="email" name="email" id="iemail" placeholder="Seu Email">
-            <input type="submit" value="Notificar">
+            <input class="name" type="text" name="nome" id="inome" placeholder="Seu Nome">
+            <label  for="iemail"></label>
+            <input class="name" type="email" name="email" id="iemail" placeholder="Seu Email"><br>
+            <input class="not" type="submit" value="Notificar">
+            </div>
         </form>
     </header>
     <main>
         <article>
-            <img src="img/about-img.jpg" alt="About us">
+            <img id="ima" src="img/about-img.jpg" alt="About us">
             <h2>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
             <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></p>
             <ul>
@@ -65,13 +67,13 @@
         <a href="#" target="_blank" rel="external"><img src="img/logo-github.jpg" alt="GitHub"></a>
         <form action="cadastro.js" method="get">
             <label for="itext"></label>
-            <input type="text" name="text" id="itext" placeholder="Seu Nome" size="200"><br>
+            <input type="text" name="text" id="itext" placeholder="Seu Nome" ><br>
             <label for="iiemail"></label>
-            <input type="email" name="email" id="iimemail" placeholder="Seu Email" size="200"><br>
+            <input type="email" name="email" id="iimemail" placeholder="Seu Email"><br>
             <label for="assunto"></label>
-            <input type="text" name="asunto" id="assunto" placeholder="Assunto" size="200"><br>
+            <input type="text" name="asunto" id="assunto" placeholder="Assunto" ><br>
             <label for="imensagem"></label>
-            <input type="text" name="mensagem" id="imensagem" placeholder="Mensagem" size="200"><br>
+            <input type="text" name="mensagem" id="imensagem" placeholder="Mensagem" ><br>
             <input type="submit" value="Enviar Mensagem">
         </form>
     </footer>
