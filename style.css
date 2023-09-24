@@ -13,30 +13,38 @@
 
 header{
     background: url(img/hero-bg.jpg) center center no-repeat;
-    height: 80vh;
+    min-height: 85vh;
     width: 100%;
     background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    height: 100%;
+    background-attachment: scroll;
+    text-align: center; 
+    margin: auto;
+ 
+    
 }
 
 header > h1{
+  
     font-family: 'fonte1';
-    padding-top: 100px;
+    padding-top: 185px;
     font-size: 4em;
     font-weight: 100;
-    text-transform:capitalize;
+    text-transform:capitalize;   
 }
 
+
+
 header > p{
+   
     font-family: 'fonte1';
     font-size: 1.5em;
     padding: 10px;
+   
 }
 
 #sep{
     padding-top: 20px;
+    
 }
 
 
@@ -65,13 +73,40 @@ header > p{
     background-color: #f78b48fd;
 }
 
-article > #ima{
+#artp{
     display: flex;
-    max-width: 95%;
-    width: 600px;
-    margin: auto;
-    padding-top: 80px;
+    flex-wrap: wrap;
      
 }
 
+#artp > .img1{
+    margin-left: 15%;
+    height: 100%;
+    width: 600px;
+    min-width: 400px;
+    padding-top: 80px;
+}
+
+#artp > .art1{
+    max-width: 600px;
+    padding:80px 0px 0px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    color: rgba(34, 34, 34, 0.767);
+}
+
+#artp > .art1 > h2{
+   font-weight: 100;
+   font-size: 1.5em;
+}
+
+.art1 > p{
+    text-align: justify;
+    
+}
+.art1  li{
+    list-style-type: '  ✓  ';
+    
+    
+}
 
