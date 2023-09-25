@@ -75,9 +75,11 @@ header > p{
 
 #artp{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-     
+   
 }
+
 
 #artp > .img1{
     margin-left: 15%;
@@ -88,11 +90,19 @@ header > p{
 }
 
 #artp > .art1{
-    max-width: 600px;
+    width: 600px;
     padding:80px 0px 0px 30px;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 2em;
     color: rgba(34, 34, 34, 0.767);
+    height: 100%;
+}
+
+@media(max-width:700px){
+    #artp > .img1{
+        margin:auto;
+        padding: auto;
+    }
 }
 
 #artp > .art1 > h2{
