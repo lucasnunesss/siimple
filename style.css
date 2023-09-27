@@ -129,17 +129,38 @@ header > p{
 
 #aritgo2, img{
     width: 400px;
+   
+    
 }
 
 #artigo2 > .img2{
-    text-align: center;
+  text-align: center;
     padding: 30px;
-    background-color: white;
+ 
 }
        
+#artigo2 >  .img2 > * {
+    width: 400px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+#artigo2 > h3, a:hover{
+    color: black;
+}
+#artigo2 > h3, a{
+    font-size: 1.5em;
+   border: 2px solid transparent;
+   text-decoration: none;
+   background-color: white;
+   color: #FD680E;
+   text-align: center;
+}
 
 #artigo2 > .img2 > p{
     width: 400px;
-    
+    text-align: start;
+    background-color: white;
 }
 
