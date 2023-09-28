@@ -123,44 +123,88 @@ header > p{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     background-color: #FFF7F2;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #aritgo2, img{
     width: 400px;
-   
-    
+    border-radius: 20px 20px 0px 0px;
+     
 }
 
-#artigo2 > .img2{
-  text-align: center;
-    padding: 30px;
- 
-}
+
        
-#artigo2 >  .img2 > * {
+#artigo2 > .img2{
     width: 400px;
-    background-color: white;
-    padding-top: 20px;
-    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
     font-size: 1.2em;
 }
+
+
 #artigo2 > h3, a:hover{
     color: black;
 }
+
 #artigo2 > h3, a{
+   text-decoration: none;
+   background-color: white;
+   color: #FD680E;
+   text-align: center; 
+   margin-top: -4px; 
+}
+
+#artigo2 >a, h3{
     font-size: 1.5em;
    border: 2px solid transparent;
    text-decoration: none;
    background-color: white;
    color: #FD680E;
-   text-align: center;
+   text-align: center; 
+   margin-top: -4px; 
 }
 
 #artigo2 > .img2 > p{
     width: 400px;
+    height: 130px;
     text-align: start;
     background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    font-family: 'fonte1'; 
 }
+
+aside{
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+aside > h1{
+    text-align: center;
+    font-family: 'fonte1';
+    font-size: 2.5em;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+aside > h2 > a{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-family: #fd680e;
+}
+
+aside > p{
+    display: none;
+}
+
+aside > h2 > a::after{
+    
+}
+
+
 
